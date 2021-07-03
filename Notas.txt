@@ -1,0 +1,10 @@
+Estruccturación
+
+<header> //Cabecera
+<nav> //Navegación
+<main> //Contenido principal
+<section> //Secciones
+<article> //Articulos o blog
+<aside> //zona lateral
+<div> //partes
+<footer> //pie de página
