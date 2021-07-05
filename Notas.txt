@@ -8,3 +8,15 @@ Estruccturación
 <aside> //zona lateral
 <div> //partes
 <footer> //pie de página
+
+
+
+CSS
+
+->Tamaños y tipos de fuente
+->Colores
+->Espacios
+->Márgenes
+->Adaptar diseños a distintos dispositivos
+->Animaciones
+->Y mucho más
