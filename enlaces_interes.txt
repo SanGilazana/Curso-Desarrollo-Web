@@ -12,3 +12,8 @@ https://tablericons.com
     FUENTES
 
 https://fontawesome.com
+https://fonts.google.com
+
+    NORMALIZE
+
+http://necolas.github.io/normalize.css/

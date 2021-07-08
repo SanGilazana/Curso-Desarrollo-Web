@@ -1,3 +1,43 @@
-h1{
-    text-align: center;
+/*Pseudo-selectores (custom properties)*/
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secuandario: #0097a7;
+    --gris: #757575;
+
+    --fuente-principal: 3.8rem;
+    
 }
+
+/* Regla para adaptar el formato de pantalla*/
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+  
+}
+
+/**********************/
+
+.titulo {
+  text-align: center;
+  font-size: var(--fuente-principal);
+  
+}
+
+.titulo span {
+  font-size: 2rem;
+}
+/* Navegación */
+
+.navegacion-principal {
+    background-color: var(--secuandario);
+    
+}
+
+
