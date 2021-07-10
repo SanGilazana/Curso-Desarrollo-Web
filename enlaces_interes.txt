@@ -14,10 +14,22 @@ https://tablericons.com
 https://fontawesome.com
 https://fonts.google.com
 
+
+    SHADOW
+https://cssmatic.com/box-shadow
+
+
     NORMALIZE
 
 http://necolas.github.io/normalize.css/
 
+
     Responsively
-    
+
 https://responsively.app/
+
+
+    CANIUSE
+    
+Para ver el soporte de los navegadores con diferentes características de CSS
+https://caniuse.com/

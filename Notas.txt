@@ -37,3 +37,7 @@ html {
 *, *::before, *:after {
   box-sizing: inherit;
 }
+
+    COMENTAR CÓDIGO
+<!-- comentario  -->  //html
+//comentario o /* comentario */ en CSS
