@@ -20,3 +20,20 @@ CSS
 ->Adaptar diseños a distintos dispositivos
 ->Animaciones
 ->Y mucho más
+
+
+SNIPETS
+
+CTRL+SHIFT+P
+escribir-> user snipets
+seleccionar para el lenguaje que deseamos(css en este casao)
+
+
+Border-box(snipets) - Modelo caja
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *::before, *:after {
+  box-sizing: inherit;
+}

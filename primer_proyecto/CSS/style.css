@@ -9,10 +9,14 @@
   --fuente-principal: 3.8rem;
 }
 
-/* Regla para adaptar el formato de pantalla*/
+/* Generales */
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%;/* Regla para adaptar el formato de pantalla*/
+  box-sizing: border-box;
+}
+*, *::before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -20,31 +24,80 @@ body {
   font-family: "Krub", sans-serif;
 }
 
-/**********************/
-
-.titulo {
-  text-align: center;
-  font-size: var(--fuente-principal);
+/* Tipografía general - Desing System*/
+h1{
+  font-size: 3.8rem;
 }
+
+h2{
+  font-size: 2.8rem;
+}
+
+h3{
+  font-size: 1.8rem;
+}
+
+h1,h2,h3 {
+  text-align: center;
+}
+
+/**********************/
 
 .titulo span {
   font-size: 2rem;
 }
 
 .contenedor {
-  width: 120rem;
+  /*Por defecto un div coge el 100% de la pantalla, por eso le damos un max-width, 
+  para decirle que cuando haya el espacio que le asignamos lo coja, sino el 100%, así se escala correctamente*/
+  max-width: 120rem;
   margin: 0 auto;
 }
+
+
+/* Botones*/
+
+.boton{
+  background-color: var(--secuandario);
+  color: var(--blanco);
+  padding: 1rem 3rem;
+  text-decoration: none;
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: .5rem;
+  width: 90%;
+  text-align: center;
+}
+@media(min-width: 480px) {
+  .boton{
+    width: auto;
+  }
+}
+
 /* Navegación */
 .nav-backgrnd {
   background-color: var(--secuandario);
 }
 .navegacion-principal {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Este media queri va a alinear el menu de navegación en fila cuando la resolución sea para una tablet o más*/
+@media (min-width: 768px) {
+  .navegacion-principal {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .navegacion-principal a {
+  display: block;
+  text-align: center;
   padding: 1rem;
   color: var(--blanco);
   text-decoration: none; /* Quitar línea de enlace*/
@@ -57,15 +110,52 @@ body {
   color: var(--oscuro);
 }
 
-
-/** Media Queries**/
-
-@media (min-width: 400px){
-  body{
-    background-color: tomato;
-  }
+.hero{
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
 }
 
-@media (min-width: 768px){
-  background-color: blue;
+.contenido-hero{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5); /* Anterior */
+  background-color: rgb( 0 0 0 / 70%); /* La nueva forma de indicar la transparencia con rgba*/
+  width: 100%;
+  height: 100%;
+
+  /*Alinear vertical y horizontalmente*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenido-hero h2,
+.contenido-hero p{
+  color: var(--blanco);
+}
+
+.ubicacion{
+  display: flex;
+  align-items: flex-end;
+}
+
+ 
+/** Media Queries**/
+
+@media(min-width: 480) {
+  /* Para un teléfono*/
+}
+
+@media(min-width: 780) {
+  /* Para una tablet */
+}
+
+@media(min-width: 1140px) {
+  /* Para un Laptop*/
+}
+
+@media(min-width: 1400px) {
+  /* El más grande*/
 }
