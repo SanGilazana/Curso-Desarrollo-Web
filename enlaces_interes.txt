@@ -33,3 +33,8 @@ https://responsively.app/
     
 Para ver el soporte de los navegadores con diferentes características de CSS
 https://caniuse.com/
+
+    NETLIFY
+
+https://www.netlify.com/
+https://first-proyect-sgilazan.netlify.app
