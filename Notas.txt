@@ -41,3 +41,7 @@ html {
     COMENTAR CÓDIGO
 <!-- comentario  -->  //html
 //comentario o /* comentario */ en CSS
+
+/* Copiar Varias líneas (Windows)*/
+
+alt+mayúsculas+flecha abajo/arriba

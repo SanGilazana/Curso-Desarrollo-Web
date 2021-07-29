@@ -38,3 +38,10 @@ https://caniuse.com/
 
 https://www.netlify.com/
 https://first-proyect-sgilazan.netlify.app
+
+    MODERNIZR
+https://modernizr.com
+busqueda por webp->build->copy->mkdir JS->modernizr.js->pegar
+
+    Lighthouse
+https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk/related?hl=es
